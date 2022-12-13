@@ -9,30 +9,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 
     <title>ClinChart</title>
-    <link rel="icon" href="https://static.practicefusion.com/apps/ehr/assets/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="https://static.practicefusion.com/apps/ehr/favicon.ico" type="image/x-icon">
-
-    <link rel="stylesheet" href="/ClinChart_home_files/css" type="text/css">
-    <link rel="stylesheet" href="/ClinChart_home_files/vendor-e2e8889b4dd7c74467ecee494a0b8090.css" type="text/css">
-    <link rel="stylesheet" href="/ClinChart_home_files/boot-af3074f341d77dccb54ff67a22092ec2.css" type="text/css">
+    
+    <link rel="stylesheet" href="./ClinChart_home_files/css" type="text/css">
+    <link rel="stylesheet" href="./ClinChart_home_files/vendor-e2e8889b4dd7c74467ecee494a0b8090.css" type="text/css">
+    <link rel="stylesheet" href="./ClinChart_home_files/boot-af3074f341d77dccb54ff67a22092ec2.css" type="text/css">
 
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="-1">
 
     <!-- SEO Optimization -->
-    <link rel="canonical" href="https://static.practicefusion.com/apps/ehr/">
-    <link rel="publisher" href="https://plus.google.com/106942884053395140257">
-
+  
     <meta name="description" content="Log in to your ClinChart EHR account with valid email and password. ClinChart is the #1 cloud-based electronic health record (EHR) platform for doctors and patients in the U.S.">
     <meta property="og:title" content="ClinChart - EHR Login">
     <meta property="og:site_name" content="ClinChart">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://static.practicefusion.com/apps/ehr/">
     <meta property="og:description" content="Log in to your ClinChart EHR account with valid email and password. ClinChart is the #1 cloud-based electronic health record (EHR) platform for doctors and patients in the U.S.">
     <meta property="fb:app_id" content="163442323709588">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@PracticeFusion">
-
     
 <meta name="boot/config/environment" content="%7B%22modulePrefix%22%3A%22boot%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Fhtml%2F%22%2C%22rootElement%22%3A%22body%22%2C%22locationType%22%3A%22hash%22%2C%22exportApplicationGlobal%22%3A%22App%22%2C%22ember-devtools%22%3A%7B%22global%22%3A%22devTools%22%2C%22enabled%22%3Afalse%7D%2C%22logTemplateLintToConsole%22%3Afalse%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%22&#39;self&#39;%20*.practicefusion.com%22%2C%22child-src%22%3A%22&#39;self&#39;%20*.practicefusion.com%20*.practicefusion.net%20*.patientfusion.com%20*.googlesyndication.com%20*.googleapis.com%20maps.gstatic.com%20maps.google.com%20ptnr-idp.vip.symclab.com%20idp.norton.com%20fast.wistia.net%20cdn.walkme.com%20*.doubleclick.net%20*.zuora.com%22%2C%22frame-src%22%3A%22&#39;self&#39;%20*.practicefusion.com%20*.practicefusion.net%20*.patientfusion.com%20*.googlesyndication.com%20*.googleapis.com%20maps.gstatic.com%20maps.google.com%20ptnr-idp.vip.symclab.com%20idp.norton.com%20fast.wistia.net%20cdn.walkme.com%20*.doubleclick.net%20*.zuora.com%20*.practicesuite.com%22%2C%22script-src%22%3A%22&#39;self&#39;%20&#39;unsafe-eval&#39;%20&#39;unsafe-inline&#39;%20*.practicefusion.com%20*.googlesyndication.com%20*.googleapis.com%20*.googletagservices.com%20*.googleadservices.com%20*.doubleclick.net%20*.amazonaws.com%20maps.gstatic.com%20maps.google.com%20cdn.mxpnl.com%20*.zuora.com%20http%3A%2F%2F*%3A35729%22%2C%22font-src%22%3A%22&#39;self&#39;%20*.practicefusion.com%20fonts.gstatic.com%20themes.googleusercontent.com%20data%3A%22%2C%22connect-src%22%3A%22&#39;self&#39;%20*.practicefusion.com%20*.practicefusion.com%3A*%20*.practicefusion.net%20api.mixpanel.com%20api-js.mixpanel.com%20ec.walkme.com%20*.gstatic.com%20*.google.com%20*.doubleclick.net%20wss%3A%2F%2F*.amazonaws.com%20*.practicesuite.com%22%2C%22img-src%22%3A%22&#39;self&#39;%20*.practicefusion.com%20*.googlesyndication.com%20*.googleapis.com%20maps.gstatic.com%20csi.gstatic.com%20*.google.com%20*.covermymeds.com%20*.amazonaws.com%20*.cloudfront.net%20*.doubleclick.net%20ec.walkme.com%20embed.wistia.com%20data%3A%22%2C%22style-src%22%3A%22&#39;self&#39;%20&#39;unsafe-inline&#39;%20*.practicefusion.com%20fonts.googleapis.com%20maps.gstatic.com%22%2C%22form-action%22%3A%22&#39;self&#39;%20*.practicefusion.com%20ptnr-idp.vip.symclab.com%20idp.norton.com%20*.practicesuite.com%22%2C%22report-uri%22%3A%22%2FLoggingEndpoint%2Fapi%2Fv1%2Fcsp%22%7D%2C%22EmberENV%22%3A%7B%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22FEATURES%22%3A%7B%7D%2C%22VERTICALS%22%3A%5B%22billing%22%2C%22charting%22%2C%22clinical%22%2C%22collaboration%22%2C%22common%22%2C%22consumer%22%2C%22dashboard%22%2C%22dev-html%22%2C%22documents%22%2C%22e-prescribe%22%2C%22erx%22%2C%22flowsheets%22%2C%22labs%22%2C%22marketing%22%2C%22pflite%22%2C%22practice%22%2C%22prescriptions%22%2C%22referrals%22%2C%22reports%22%2C%22scheduler%22%2C%22settings%22%2C%22subscription%22%2C%22tasks%22%2C%22timeline%22%5D%2C%22MODEL_FACTORY_INJECTIONS%22%3Atrue%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22CONFIG%22%3A%7B%7D%2C%22FEATURE_OFFLINE%22%3A%22FEATURE_OFFLINE%22%2C%22SYSTEM_OFFLINE%22%3A%22SYSTEM_OFFLINE%22%2C%22TO_AS%22%3A%22sendToAS%22%2C%22FROM_AS%22%3A%22AS_MESSAGE%22%2C%22name%22%3A%22carbon%22%2C%22version%22%3A%220.0.1%2B20791e08%22%7D%2C%22tyrion%22%3A%7B%22imports%22%3A%7B%7D%2C%22includedApps%22%3A%7B%22boot%22%3Atrue%7D%2C%22includesDummyApp%22%3Afalse%7D%2C%22verticals%22%3A%7B%22devlopmentOnly%22%3A%5B%22dev-html%22%5D%7D%2C%22ember-cli-mirage%22%3A%7B%22enabled%22%3Afalse%2C%22excludeFilesFromBuild%22%3Atrue%2C%22usingProxy%22%3Afalse%2C%22useDefaultPassthroughs%22%3Atrue%7D%2C%22includesTyrionDummyApp%22%3Afalse%2C%22defaultToTyrionDummyApp%22%3Afalse%7D">
 
